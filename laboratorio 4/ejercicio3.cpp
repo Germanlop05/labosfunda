@@ -8,14 +8,14 @@ int numero;
  cin>>numero;
 
  if(numero==0){
- cout<<"su numero es igual a cero";
+ cout<<"su numero "<<numero<<" es igual a cero"<<endl;
  }
  else if (numero>0)
  {
-    cout<<"su numero es positivo";
+    cout<<"su numero "<<numero<< " es positivo"<<endl;
  }else if (numero<0)
  {
-     cout<<"su numero es negativo";
+     cout<<"su numero "<<numero<<" es negativo"<<endl;
  }
 return 0;
 }
