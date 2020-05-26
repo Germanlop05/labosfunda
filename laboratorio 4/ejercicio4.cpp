@@ -21,6 +21,7 @@ else if (longitud<10){
 }
 else if (longitud==10){
     cout<<palabra<<" es igual a 10 caracteres, "<< " tiene " <<longitud<<endl;
+
 }
 if (longitud%2==0){
     cout<<palabra<<" tiene longitud par"<<endl;
