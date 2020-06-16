@@ -11,12 +11,12 @@ int mcd (int a, int b ){
 
 int main(){
 int a, b;
-cout<<"\nIntroduzca el primer numero: ";
+cout<<"\nIntroduzca el primer numero mayor: ";
 cin>>a;
-cout<<"\nIntroduzca el segundo numero: ";
+cout<<"\nIntroduzca el segundo numero menor: ";
 cin>>b;
 
 int resul=mcd(a,b);
-cout<<"\nel maximo comun divisor de "<< a <<" y "<< b <<" es: "<<resul<<endl;
+cout<<"\nEl MCD de "<< a <<" y "<< b <<" es: "<<resul<<endl;
 return 0;
 }
