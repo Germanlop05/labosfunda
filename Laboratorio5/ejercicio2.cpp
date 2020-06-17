@@ -20,7 +20,7 @@ int main (){
                 if(h==24)
                 h=0;
             }
-        }cout<<"\n su hora un segundo despues es: "<<h<<":"<<m<<":"<<s;
+        }cout<<"\nSu hora un segundo despues es: "<<h<<":"<<m<<":"<<s;
     }else 
     cout<<"SU HORA INGRESADA ES INCORRECTA..";
 return 0;

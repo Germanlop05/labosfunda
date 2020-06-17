@@ -1,24 +1,21 @@
 #include <iostream>
-using namespace std ;
+
+using namespace std;
 
 int main(){
-    int mayor, menor, residuo;
-    cout<<"MCD DE DOS NUMEROS\n\n";
-    cin>>mayor;
-    cout<<"digite el numero mayor: "; 
-    cin>>mayor;
+int d,m,anio;
 
-    cout<<"digite el numero menor: ";
-    cin>>menor;
+cout<<"\nIngrese el dia: ";
+cin>>d;
+cout<<"\nIngrese el mes: ";
+cin>>m;
+cout<<"\nIngresa el anio: ";
+cin>>anio;
+if(anio>=0 && anio<=2020 && m>=0 && m<=12 && d>=0 && d<=31)
+d++;
+if(anio==2020){
+    
+}
 
-    do{
-        residuo=mayor%menor;
-        if(residuo!=0){
-            mayor=menor;
-            menor=residuo;
-        }
-    }while(residuo !=0);
-    cout<<"EL MCD es: "<<menor;
-    cout<<endl;
-    return 0;
+return 0;
 }
